@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add font awesome icons -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Navbar section -->
+        <nav class="navbar">          
+            <ul class="nav-items">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li> 
+                <li><a href="#contact">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <!-- REMINDER: add arrows that let you nav up or down sections -->
+    <!-- Typing Animation -->
+    <section id="welcome" class="centered-section">
+        <div class="typing-animation">
+            <span id="welcome-text"></span>
+        </div>
+    
+        <!-- Navigation Arrows at the bottom -->
+        <div class="scroll-arrows">
+            <a href="#about" class="scroll-link">▼</a> <!-- Down arrow to About Me section -->
+        </div>
+    </section>
+    <!-- About Me -->
+    <section id="about" class="centered-section">
+        <div class="container">
+            <h1>About Me</h1>
+            <p class="introduction">My name is Nathan Chow. I'm currently a rising Junior attending <b>UC Irvine</b> majoring in computer science. 
+                I began my college career with an interest in entrepreneurship, but through that journey, I discovered the importance of implementing 
+                software to automate tasks. During my 2nd year in college, I began learning how to write programs to make my tasks easier, inspiring me 
+                to switch my major and pursue a higher education in computer science to further my understanding.
+                </p>
+        </div>
+    </section>
+    <!-- Projects -->
+    <!-- REMINDER: organize the projects to look cooler -->
+    <section id="projects" class="centered-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Inventory Manager</h3> 
+                <p class="introduction">
+                    <b>Python, Google Sheets API, Gmail API</b> <br>
+                    • Developed an application with a team using Python to streamline tedious business processes<br>
+                    • Used Gmail and Google Sheets API to share data<br>
+                    • Integrated new functionalities that allowed only relevant data from Gmail to be populated into Google Sheets<br>
+                    • Utilized this program in my businesses which reduced my canceled orders by over 50% by accurately reporting
+                    inventory 
+                </p>
+            </div>
+            <div class="project">
+                <h3>Christmas Bot </h3>
+                <p class="introduction">
+                     <b>Javascript, Node.js, Puppeteer, HTML, SQLite</b> <br>
+                    • Collaborated with a driven team to build a bot that automated the online checkout process for limited items <br>
+                    • Deployed it to a limited user group, actively incorporated feedback<br>
+                    • Added features such as storing relevant purchase data<br>
+                    • Utilized SQLite to store purchase data for inventory records<br>
+                    • Resulted in users generating over $13,000 in revenue</p>
+            </div>
+                <h3>More Projects</h3>
+                <p class="introduction">Check out my github for more!</p>
+                <a href="https://github.com/nchowcode"class="fa fa-github"></a>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    <!-- Work Experience -->
+    <section id="experience" class="centered-section">
+        <div class="container">
+            <h2>Experience</h2>
+            <ul>
+                <p class="introduction"> <b>Programming Languages</b>: C++, Java, Python, JavaScript, HTML, CSS, SQL</li>
+                <p class="introduction"><b>Tools & Frameworks</b>: Git, Google Cloud Platform, VS Code, Visual Studio, PyCharm</li>
+                <p class="introduction"><b>Relevant Courses</b>: Algorithms and Data Structures, Object Oriented Programming, Discrete Math, Computer
+                    Architecture and Assembly Language</li>
+                <p class="introduction"><b>Campus Involvment</b>: Hack@UCI, MAISS (Business and Technology Society)</li>
+                <!-- Add more skills -->
+            </ul>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="centered-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p class="introduction">Feel free to reach out if you have any questions or collaboration opportunities.</p>
+            <!-- Reminder: what other social media?  -->
+            <a href="mailto:nathanchow456@gmail.com" class="fa fa-envelope"></a>
+            <a href="https://www.linkedin.com/in/nathanchowsf/"class="fa fa-linkedin"></a>
+        </div>
+    </section>
+</body>
+</html>

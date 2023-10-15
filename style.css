@@ -1,0 +1,169 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000; 
+    margin: auto;
+}
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 20px;
+    z-index: 100; 
+    justify-content: center;
+    align-items: center; 
+    opacity: 0.7 ;
+}
+
+
+.nav-items {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 40px;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    left: 50%;
+    color: #333;
+    
+}
+h1,h2, h3 {
+    color: #333;
+    font-size: 40px;
+    
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+a {
+    color: #92a1a8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; 
+}
+
+.introduction {
+    margin-top: 30px; 
+    font-size: 20px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.typing-animation {
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1; 
+}
+
+#welcome-text::after {
+    content: '|'; /* The blinking cursor */
+    animation: blink 1s infinite;
+    vertical-align: text-top; 
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.6;
+  }
+  
+  .fa-linkedin {
+    background: #2f60e7;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .fa-envelope {
+    background: #e74646;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .fa-github {
+    background: #000000;
+    color: white;
+    margin-top: 30px;
+  }
+
+.scroll-arrows {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.scroll-link {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+    cursor: pointer;
+}
+
